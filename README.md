@@ -37,7 +37,7 @@ Os dados coletados pelos sensores são enviados para a plataforma Ubidots, onde 
      
    - **Exibição de dados no monitor serial**: os dados medidos pelos sensores são exibidos no monitor serial para fins de depuração e monitoramento.
 
-3. **Manutenção da Conexão e Pausa**: A função `ubidots.loop()` é chamada para manter a conexão ativa com a plataforma Ubidots. Após cada ciclo do loop, há uma pausa de 1 segundo (`delay(1000)`) antes do próximo ciclo.
+3. **Manutenção da conexão e pausa**: a função `ubidots.loop()` é chamada para manter a conexão ativa com a plataforma Ubidots. Após cada ciclo do loop, há uma pausa de 1 segundo (`delay(1000)`) antes do próximo ciclo.
 
 Essa sequência de operações se repete continuamente enquanto o dispositivo estiver ligado, garantindo o monitoramento constante do ambiente residencial e a detecção de possíveis situações de risco.
 
